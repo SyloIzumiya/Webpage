@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        
+        body{
+            background: url(4.jpg);
+            background-position: center;
+            background-size: cover;
+            cursor: auto;
+    
+        }
+    
+        .navbar ul{
+            float: right;
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+
+}
+.navbar ul li{
+    font-family: Century;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 25px;
+    transition: all .5s ease;
+}
+.navbar ul li a:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 10px royalblue;
+}
+
+        body h1{
+            font-size: 2rem;
+            font-family: century;
+            text-transform: uppercase;
+            font-weight: bold;
+            align-items: center;
+            justify-content: center;
+            color: aqua;
+            flex-direction: column;
+            display: flex;
+        }
+        body h2{
+            color: aqua;
+            font-family: century;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+        }
+        .row{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+        }
+        .box{
+        display: flex;
+    flex-direction: column;
+    width: 330px;
+    height: 400px;
+    border: 1px solid black;
+    margin: 10px;
+    align-items: center;
+    text-align: justify;
+    padding: 10px;
+    border-radius: 15px;
+    background: linear-gradient(to top, rgba(255, 45, 45)50%, white 50%);
+    background-size: 100% 200%;
+    transition: all .8s;
+    cursor: pointer;
+    }
+    .box:hover{
+    background-position: left bottom;
+    color: white;
+    border: none;
+    box-shadow: 0 0 20px, rgba(255, 45, 45);
+ }
+        
+
+        </style>
+    
+    
+</head>
+<body>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Go Back</a></li>
+        </ul>
+    </nav>
+
+    <h1 class="headings">
+        Nested Ordered List
+    </h1>
+    <div class="row">
+        <h2>
+        <div class="box">
+                <ol>
+                    <li>Last Name</li>
+                    <br>
+                    <ol>
+                        <li>Bonghanoy</li>
+                        <li>Llenas</li>
+                        <li>Lonoy</li>
+                        <li>Nudalo</li>
+                    </ol>
+                    <br>
+                    <li>First Name</li>
+                    <li>Middle Name</li>
+                </ol>
+            </h2>
+        </div>
+    </div>
+    
+</body>
+</html>

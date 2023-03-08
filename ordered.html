@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OrederedList</title>
+    <style type="text/css">
+      
+body{
+    background: url(1.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+body h1{
+    color: aqua;
+    display: flex;
+    font-family: century;
+    font-size: 2rem;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    cursor: auto;
+}
+.navbar ul{
+            float: right;
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+
+}
+.navbar ul li{
+    font-family: Century;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 25px;
+    transition: all .5s ease;
+}
+.navbar ul li a:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 10px royalblue;
+}
+    #orderedlist{
+    display: inline-block;
+    flex-direction: column;
+    padding: 20px;
+    margin: 50px;
+    cursor: text;
+   
+}
+
+
+.row{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    cursor: auto;
+ 
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+    height: 250px;
+    border: 1px solid black;
+    margin: 10px;
+    align-items: center;
+    text-align: justify;
+    padding: 10px;
+    border-radius: 15px;
+    background: linear-gradient(to top, rgba(255, 45, 45)50%, white 50%);
+    background-size: 100% 200%;
+    transition: all .8s;
+    cursor: pointer;
+}
+ .box:hover{
+    background-position: left bottom;
+    color: white;
+    border: none;
+    box-shadow: 0 0 20px, rgba(255, 45, 45);
+ }
+    </style>
+</head>
+<body>
+    
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Go Back</a></li>
+        </ul>
+    </nav>
+    
+    <h1 class="headings"> Ordered List</h1>
+    <div class="row">
+<h2>
+    <div class="box">
+    <ol type="1">
+        <li>Bonghanoy</li>
+        <li>Llenas</li>
+        <li>Lonoy</li>
+        <li>Nudalo</li>
+    </ol>
+    </div>
+</h2>
+
+<h2>
+    <div class="box">
+    <ol type="A">
+        <li>Bonghanoy</li>
+        <li>Llenas</li>
+        <li>Lonoy</li>
+        <li>Nudalo</li>
+    </ol>
+</div>
+</h2>
+<br>
+
+<h2>
+    <div class="box">
+    <ol type="a">
+        <li>Bonghanoy</li>
+        <li>Llenas</li>
+        <li>Lonoy</li>
+        <li>Nudalo</li>
+    </ol>
+</div>
+</h2>
+<br>
+
+<h2>
+    <div class="box">
+<ol type="I">
+        <li>Bonghanoy</li>
+        <li>Llenas</li>
+        <li>Lonoy</li>
+        <li>Nudalo</li>
+
+    </ol>
+</div>
+</h2>
+<br>
+
+<h2>
+    <div class="box">
+    <ol type="i">
+        <li>Bonghanoy</li>
+        <li>Llenas</li>
+        <li>Lonoy</li>
+        <li>Nudalo</li>
+    </ol>
+</div>
+            </h2>
+            <br>
+        </div>
+    </div>
+
+</body>
+</html>
+
+
+    

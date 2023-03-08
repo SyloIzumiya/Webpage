@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    background-image: url(2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+} 
+.icon{
+    width: 1300px;
+    float: left;
+    height: 100px;
+}
+
+.logo{
+    color: #ff7200;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    margin-top: 5px
+}
+
+ul{
+    float: right;
+    list-style: none;
+    margin-top:  15px;
+    margin-right: 50px;
+    font-family: century;
+   font-size: 2rem;
+}
+
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: aqua;
+    padding: 1px 2px;
+    border: 1px solid;
+    transition: 0.6s ease-out;
+}
+ul li a:hover{
+    background-color:#f7eded;
+    color:black;
+}
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.title h1{
+    color: #fff;
+    font-size: 70px;
+}
