@@ -1,0 +1,90 @@
+body{
+    width: auto;
+    height: 100vh;
+    background-image: linear-gradient(to top, rgba(0,0,0,0.75)50%,rgba(0,0,0,0.75)50%), url(2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.form{
+    width: 250px;
+    height: 300px;
+    position: absolute;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    top: 150px;
+    left: 500px;
+    border-radius: 15px;
+    padding: 25px;
+}
+.form h1{
+    color: #ff7200;
+    font-size: 1.5rem;
+    font-family: century;
+    font-weight: bold;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 8px;
+
+}
+.form input{
+    width: 200px;
+    height: 30px;
+    background: transparent;
+    border-bottom: 1px solid #ff7200;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    margin-top: 10px;
+    padding: 2px;
+    letter-spacing: 1px;
+    color: white;
+
+
+}
+.form input:focus{
+    outline: none;
+}
+::placeholder{
+    color: white;
+    font-family: century;
+    font-size: 1.1rem;
+}
+.btn{
+    width: 240px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-top: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s;
+}
+.btn a{
+    text-align: center;
+    font-family: century;
+    font-weight: bold;
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: black;
+}
+.btn:hover{
+    background: white;
+}
+.link{
+    text-align: center;
+    padding: 10px;
+    color: white;
+    font-family: century;
+    font-size: 1.1rem;
+}
+.link a{
+    text-decoration: none;
+    font-family: century;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #ff7200;
+    text-decoration: underline;
+    text-decoration-color: white;
+    text-underline-offset: 8px;
+}
