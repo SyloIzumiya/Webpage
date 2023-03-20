@@ -1,0 +1,6 @@
+h2{
+    color: white;
+    font-family: century;
+    align-items: center;
+    justify-content: center;
+    display: flex;
